@@ -1,0 +1,26 @@
+type: edu
+custom_name: Console Photoshop - Filter Functions
+files:
+  - name: src/main/kotlin/jetbrains/kotlin/course/almost/done/Main.kt
+    visible: true
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/kotlin/course/almost/done/Images.kt
+    visible: false
+    learner_created: false
+  - name: src/main/kotlin/jetbrains/kotlin/course/almost/done/PreDefinedSymbols.kt
+    visible: false
+    learner_created: false
+  - name: test/MainClass.kt
+    visible: false
+    learner_created: false
+  - name: test/Methods.kt
+    visible: false
+    learner_created: false
+  - name: test/Tests.kt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 13 May 2025 14:45:44 UTC"
+record: 58

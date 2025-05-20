@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test" tests="37" skipped="0" failures="0" errors="0" timestamp="2025-05-18T08:36:06.808Z" hostname="CY-UNIT-0203" time="0.293">
+  <properties/>
+  <testcase name="smokeTest()" classname="Test" time="0.022"/>
+  <testcase name="testSolution()" classname="Test" time="0.091"/>
+  <testcase name="[1] 1, _" classname="Test" time="0.015"/>
+  <testcase name="[2] 2, _ _" classname="Test" time="0.0"/>
+  <testcase name="[3] 3, _ _ _" classname="Test" time="0.001"/>
+  <testcase name="[4] 4, _ _ _ _" classname="Test" time="0.0"/>
+  <testcase name="[1] ABCD, false" classname="Test" time="0.003"/>
+  <testcase name="[2] abc, false" classname="Test" time="0.001"/>
+  <testcase name="[3] 1, false" classname="Test" time="0.001"/>
+  <testcase name="[4] 1a, false" classname="Test" time="0.001"/>
+  <testcase name="[5] , false" classname="Test" time="0.001"/>
+  <testcase name="[1] BOOK, A, _ _ _ K, null" classname="Test" time="0.003"/>
+  <testcase name="[2] BOOK, B, _ _ _ K, B _ _ K" classname="Test" time="0.001"/>
+  <testcase name="[1] BOOK, A, _ _ _ _, null" classname="Test" time="0.002"/>
+  <testcase name="[2] BOOK, A, _ O O _, null" classname="Test" time="0.0"/>
+  <testcase name="[3] BOOK, A, _ _ _ K, null" classname="Test" time="0.0"/>
+  <testcase name="[4] BOOK, B, _ _ _ _, B _ _ _" classname="Test" time="0.0"/>
+  <testcase name="[5] BOOK, B, _ O O _ , B O O _" classname="Test" time="0.001"/>
+  <testcase name="[6] BOOK, K, _ _ _ K, null" classname="Test" time="0.001"/>
+  <testcase name="testGameImitation()" classname="Test" time="0.001"/>
+  <testcase name="[1] TestMethod(name=generateNewUserWord, returnType=TestKotlinType(type=String, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=secret, javaType=String, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false), TestVariable(name=guess, javaType=Char, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false), TestVariable(name=curre…" classname="Test" time="0.106"/>
+  <testcase name="[2] TestMethod(name=isComplete, returnType=TestKotlinType(type=Boolean, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=secret, javaType=String, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false), TestVariable(name=currentGuess, javaType=String, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false)], returnTypeJava=null, …" classname="Test" time="0.0"/>
+  <testcase name="[3] TestMethod(name=generateSecret, returnType=TestKotlinType(type=String, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[], returnTypeJava=null, visibility=PUBLIC, hasGeneratedPartInName=false)" classname="Test" time="0.0"/>
+  <testcase name="[4] TestMethod(name=getHiddenSecret, returnType=TestKotlinType(type=String, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=wordLength, javaType=Int, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false)], returnTypeJava=null, visibility=PUBLIC, hasGeneratedPartInName=false)" classname="Test" time="0.0"/>
+  <testcase name="[5] TestMethod(name=isCorrectInput, returnType=TestKotlinType(type=Boolean, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=userInput, javaType=String, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false)], returnTypeJava=null, visibility=PUBLIC, hasGeneratedPartInName=false)" classname="Test" time="0.001"/>
+  <testcase name="[6] TestMethod(name=safeUserInput, returnType=TestKotlinType(type=Char, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[], returnTypeJava=null, visibility=PUBLIC, hasGeneratedPartInName=false)" classname="Test" time="0.001"/>
+  <testcase name="[7] TestMethod(name=getRoundResults, returnType=TestKotlinType(type=String, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=secret, javaType=String, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false), TestVariable(name=guess, javaType=Char, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false), TestVariable(name=currentUs…" classname="Test" time="0.001"/>
+  <testcase name="[8] TestMethod(name=playGame, returnType=TestKotlinType(type=unit, abbreviation=null, isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=secret, javaType=String, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false), TestVariable(name=maxAttemptsCount, javaType=Int, value=null, kotlinType=null, visibility=null, mutability=null, isInPrimaryConstructor=false, isStatic=false, isConst=false)], returnTypeJava=void, visi…" classname="Test" time="0.001"/>
+  <testcase name="[1] [AB, abc, 1, b], B" classname="Test" time="0.001"/>
+  <testcase name="[2] [b], B" classname="Test" time="0.0"/>
+  <testcase name="[3] [AB, abc, 1, b, c], B" classname="Test" time="0.0"/>
+  <testcase name="[4] [AB, abc, 1, b, c1d], B" classname="Test" time="0.0"/>
+  <testcase name="[5] [b, c], B" classname="Test" time="0.0"/>
+  <testcase name="[1] ABC, A B C, true" classname="Test" time="0.002"/>
+  <testcase name="[2] ABC, A B B, false" classname="Test" time="0.0"/>
+  <testcase name="[3] ABC, A A A, false" classname="Test" time="0.0"/>
+  <testcase name="testGenerateSecretMethodImplementation()" classname="Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
